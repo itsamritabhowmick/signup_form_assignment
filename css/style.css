@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    /* background-color: #955f5f; */
+    background-image: url("https://images.unsplash.com/photo-1728356165696-17ed53e24dd3?q=80&w=1175&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.up{
+    min-width: fit-content;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f9bca1; */
+    background: transparent;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(88, 1, 28);
+    
+}
+.up h2{
+    color: #ab2c2c;
+    margin-bottom: 15px;
+}
+input{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px 7px;
+    border: none;
+    background-color: #ede5f5;
+    color: #961f78;
+}
+.name-div{
+    display: flex;
+    gap: 8px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+.btn-div button{
+    background-color: rgb(55, 159, 219);
+    color: #150b4d;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 7px;
+    cursor: pointer;
+    width: 100%;
+}
+.btn-div button:hover{
+    background-color: rgb(89, 123, 236);
+}
